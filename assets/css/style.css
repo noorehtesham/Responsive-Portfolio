@@ -237,3 +237,141 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+@media screen and (max-width: 768px) {
+   header nav,
+  .container
+   header nav li{
+    float: none;
+    text-align: center;
+    width: 100%;
+   }
+
+   .main-section {
+    float: left;
+   padding: 10px ;
+ 
+   }
+
+  .sidebar {
+    float: none;
+    width: 40%;
+    padding: 5px;
+    margin-bottom: 10px;
+
+  }
+}
+@media screen and (max-width:980px) {
+   
+  .container {
+    width: 100%;
+
+   }
+   header nav,
+   header nav li {
+    float: left;
+    text-align: center;
+    width: 100%;
+    max-width: 640px;
+
+   }
+   #main-container {
+    padding-top: 160px;
+   }
+
+
+.sidebar {
+  float:none;
+  width: 100%;
+  padding: none;
+  max-width: 640px;
+
+  text-align:  center;
+  float: none;
+  width: 100%;
+  padding: 30px ;
+}
+.sidebar h2
+.sidebar image {
+  text-align:  center;
+}
+#logo {
+  text-align: center;
+  float: none;
+  width: 100%;
+  background: #4aaaa5;
+  padding: 50px ;
+
+
+}
+.sidebar {
+  float:right;
+  max-width: 250px;
+
+}
+
+  .main-section {
+    float: left;
+    padding: 20px;
+    max-width: 500px;
+  }
+header {
+  float: left;
+}
+}
+ @media screen and (max-width: 640px) {
+  
+  .container {
+    width: 100%;
+    float: none;
+
+   }
+   header {
+    position: static;
+    text-align: center;
+   }
+   header nav,
+   header nav li {
+    float: none;
+    text-align: center;
+    width: 100%;
+    max-width: 640px;
+
+   }
+
+.sidebar {
+  float:none;
+  width: 100%;
+  padding: none;
+  max-width: 640px;
+
+  text-align:  center;
+  float: none;
+  width: 100%;
+  padding: 30px ;
+}
+.sidebar h2
+.sidebar image {
+  text-align:  center;
+}
+#logo {
+  text-align: center;
+  float: none;
+  width: 100%;
+  background: #4aaaa5;
+  padding: 50px;
+
+
+}
+
+  .main-section {
+    float: none;
+    padding: 30px;
+    max-width: 640px;
+  }
+#connect {
+  padding: 15px;
+}
+ }
+
+ 
+}
